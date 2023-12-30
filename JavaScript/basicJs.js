@@ -9,3 +9,6 @@ console.log(findIndex)
 
 num[1] = 250;
 console.log(num)
+
+var name = ['biplob', 'bipu', 'jabery']
+console.log(name[1]);
