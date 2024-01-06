@@ -24,6 +24,15 @@ console.log(facturial)
 
 // Recalculate factorial multiple times using Function--------
 
+// function getFacturial(number){
+//     let initialFactorialValue = 1;
+
+//     for(let i = 1; i <= number; i ++){
+//         initialFactorialValue = initialFactorialValue * i;
+//     }
+
+//     console.log(initialFactorialValue);
+
 function getFacturial(number){
     let initialFactorialValue = 1;
 
