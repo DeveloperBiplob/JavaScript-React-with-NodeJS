@@ -33,14 +33,24 @@ console.log(facturial)
 
 //     console.log(initialFactorialValue);
 
-function getFacturial(number){
-    let initialFactorialValue = 1;
+// function getFacturial(number){
+//     let initialFactorialValue = 1;
 
-    for(let i = 1; i <= number; i ++){
-        initialFactorialValue = initialFactorialValue * i;
+//     for(let i = 1; i <= number; i ++){
+//         initialFactorialValue = initialFactorialValue * i;
+//     }
+
+//     console.log(initialFactorialValue);
+// }
+
+function newFacturial(num){
+    let defaultFacturial = 1;
+
+    for(let i = 1; i <= num; i ++){
+        defaultFacturial = defaultFacturial * i;
     }
 
-    console.log(initialFactorialValue);
+    console.log(defaultFacturial)
 }
 
 getFacturial(10)
